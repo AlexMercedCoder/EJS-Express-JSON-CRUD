@@ -1,0 +1,29 @@
+/* CSS VARIABLES */
+:root {
+    --main-color: gray;
+    --secondary-color: white;
+    --highlight-color: green;
+    --title-font: arial, system-ui;
+    --main-font: helvetica, system-ui;
+}
+
+/* CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* NORMALIZATION */
+
+body {
+    background-color: var(--main-color);
+    color: var(--secondary-color);
+    font-family: var(--main-font);
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: var(--title-font);
+}
+
+/* YOUR STYLING */
